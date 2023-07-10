@@ -1,4 +1,4 @@
-# CMPE 255 Project
+
 
 We are going to implement a machine learning based intrusion detection system utilizing the dataset from the KDD 1999 Third International Knowledge Discovery and Data Mining Tools Competition. The original task in the competition is to detect whether a connection is an attack or a normal connection. However, we will take this task further and classify the connections into 4 major attacks type and a normal condition.  
 - DOS: denial-of-service, e.g. syn flood;  
@@ -6,9 +6,9 @@ We are going to implement a machine learning based intrusion detection system ut
 - U2R: unauthorized access to local superuser (root) privileges, e.g., various ``buffer overflow'' attacks;    
 - probing: surveillance and other probing, e.g., port scanning.    
 - Normal: normal connection  
-   
-   
-Group members:  Yang Chen, Fulbert Jong, David Tang  
+
+Designed Website For the Same using React
+https://github.com/tonystark5683/Cyber-Knights-React
 
 Proposed Methodology/Techniques:   
 - Nearest Neighbors
@@ -16,8 +16,7 @@ Proposed Methodology/Techniques:
 - Decision Trees
 - Neural Networks
 
-Resources and Datasets:    
-The Third International Knowledge Discovery and Data Mining Tools Competition (1999)   
+Resources and Datasets:       
 http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html    
 The raw training data is about four gigabytes of compressed binary TCP dump data from seven weeks of network traffic. This was processed into about five million connection records. Similarly, the two weeks of test data yielded around two million connection records.     
 A connection is a sequence of TCP packets starting and ending at some well defined times, between with data flows to and from a source IP address to a target IP address under some well defined protocol. Each connection is labeled as either normal, or as an attack, with exactly one specific attack type. Each connection record consists of about 100 bytes.  
