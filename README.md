@@ -1,6 +1,5 @@
 
-
-We are going to implement a machine learning based intrusion detection system utilizing the dataset from the KDD 1999 Third International Knowledge Discovery and Data Mining Tools Competition. The original task in the competition is to detect whether a connection is an attack or a normal connection. However, we will take this task further and classify the connections into 4 major attacks type and a normal condition.  
+ Implemented a machine learning based intrusion detection system utilizing the dataset from the KDD 1999 Third International Knowledge Discovery and Data Mining Tools Competition. The original task in the competition is to detect whether a connection is an attack or a normal connection. However, we will take this task further and classify the connections into 4 major attacks type and a normal condition.  
 - DOS: denial-of-service, e.g. syn flood;  
 - R2L: unauthorized access from a remote machine, e.g. guessing password;   
 - U2R: unauthorized access to local superuser (root) privileges, e.g., various ``buffer overflow'' attacks;    
