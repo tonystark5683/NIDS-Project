@@ -7,8 +7,8 @@
 - Normal: normal connection  
 
 Designed Website For the Same using React
-https://github.com/tonystark5683/Cyber-Knights-React
-
+https://cyber-knights-react.vercel.app/
+![landing](images/Screenshot_landing.png)
 Proposed Methodology/Techniques:   
 - Nearest Neighbors
    - Using either Cosine Similarity or Euclidean Distance
