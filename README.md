@@ -8,7 +8,7 @@
 
 Designed Website For the Same using React
 https://cyber-knights-react.vercel.app/
-![landing](images/Screenshot_landing.png)
+![landing](assets/NIDS.png)
 Proposed Methodology/Techniques:   
 - Nearest Neighbors
    - Using either Cosine Similarity or Euclidean Distance
